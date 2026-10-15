@@ -2,23 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Validation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   
 </head>
-<body>
-  <nav>
-    <a href="index.html">Contact</a>
-    <a href="html-validation.html">Validation</a>
-    <a href="bootstrap-form.html">Bootstrap</a>
-    <a href="bootstrap-validation.html">Feedback</a>
-    <a href="registration.html">Registration</a>
+<body class="container mt-4">
+  <nav class="nav nav-pills mb-3">
+    <a class="nav-link" href="index.html">Contact</a>
+    <a class="nav-link" href="html-validation.html">Validation</a>
+    <a class="nav-link" href="bootstrap-form.html">Bootstrap</a>
+    <a class="nav-link" href="bootstrap-validation.html">Feedback</a>
+    <a class="nav-link" href="registration.html">Registration</a>
   </nav>
   <h1>Validation</h1>
   <form>
-    <label for="valid-name">Name</label><br>
-    <input id="valid-name" name="name" type="text" required minlength="2"><br>
-    <label for="valid-email">Email</label><br>
-    <input id="valid-email" name="email" type="email" required><br>
-    <label for="valid-message">Message</label><br><textarea id="valid-message" name="message" required minlength="10" maxlength="500"></textarea><br>
-    <button type="submit">Send</button></form></body></html>
+    <label for="valid-name" class="form-label">Name</label><br>
+    <input id="valid-name" name="name" type="text" class="form-control" required minlength="2"><br>
+    <label for="valid-email" class="form-label">Email</label><br>
+    <input id="valid-email" name="email" type="email" class="form-control" required><br>
+    <label for="valid-message" class="form-label">Message</label><br><textarea id="valid-message" name="message" class="form-control" required minlength="10" maxlength="500"></textarea><br>
+    <button class="btn btn-primary" type="submit">Send</button></form></body></html>
     
