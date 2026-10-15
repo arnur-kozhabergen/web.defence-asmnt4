@@ -7,3 +7,5 @@ Pages: `index.html` is the contact form, `html-validation.html` checks browser v
 The registration form checks required fields, email format, password length, matching passwords, gender, and country. The forms are examples and do not save data.
 
 Open `index.html` in a browser to view the project. Bootstrap loads from the internet.
+
+Live site: https://arnur-kozhabergen.github.io/web.defence-asmnt4/
